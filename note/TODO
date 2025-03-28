@@ -7,9 +7,18 @@ Task:
   ☐ 개발 전략(테스트 시나리오, 우선순위 -- 후순위로 미룰 게 있나?, 작업 목록 작성)
 
   ☐ 작업 목록: @must @could @should @won't
-    ☐ Nasa api test
-      ☐ api .env에 등록
-      ☐ api test
+    ✔ Nasa api test @done(25-03-28 16:44)
+      ✔ api .env에 등록 @done(25-03-28 16:44)
+      ✔ api test @done(25-03-28 16:44)
+
+    ☐ Card UI 개발
+      ✔ HTML 구조 @done(25-03-28 17:01)
+      ✔ CSS @done(25-03-28 17:59)
+        ✔ pretendard 적용 @done(25-03-28 17:17)
+        ✔ color 적용 @done(25-03-28 17:59)
+        ✔ typography 적용 @done(25-03-28 17:59)
+        ✔ shadow 적용 @done(25-03-28 17:59)
+    
   ☐ 회고
 
   ☐ 추가

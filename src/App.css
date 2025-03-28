@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@import "pretendard/dist/web/variable/pretendardvariable.css";
+
+:root {
+  body {
+    min-height: 100vh;
+  }
+}
