@@ -29,5 +29,9 @@ dist-ssr
 /blob-report/
 /playwright/.cache/
 
-#test 폴더
+# test 폴더
 playground
+
+# 환경변수
+.env.dev
+.env.stg

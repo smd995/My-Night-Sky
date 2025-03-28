@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const fetchUser = async () => {
-      const response = await fetch("http://example.com/user");
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/user`);
       const userData = await response.json();
       console.log(userData);
       setUser(userData);
