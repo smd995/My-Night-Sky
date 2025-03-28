@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --mode dev",
     "stg": "vite --mode stg",
-    "build": "tsc -b && vite build --mode prd",
+    "build": "tsc -b && vite build --mode prd && npx rimraf dist/mockServiceWorker.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },

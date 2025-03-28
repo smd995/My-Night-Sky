@@ -1,5 +1,5 @@
 import { test, describe } from "vitest";
-import { contentApi } from "./api.effect";
+import { contentApi } from "./contentApi.effect";
 
 describe("api test", () => {
   const api = contentApi();
